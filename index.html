@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="script.js"></script>
+</head>
+<body>
+<label>Input Feet</label>
+<input id="inputFeet" type="number" placeholder="Feets"
+       oninput="FeetConverter(this.value)"
+       onchange="FeetConverter(this.value)">
+<p>= <span id="outputMeter"></span> meters</p>
+
+<label>Input Meters</label>
+<input id="inputMeters" type="number" placeholder="Meters"
+       oninput="MeterConverter(this.value)"
+       onchange="MeterConverter(this.value)">
+<p>= <span id="outputFeet"></span>  feets</p>
+
+
+
+</body>
+</html>
